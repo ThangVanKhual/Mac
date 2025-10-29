@@ -7,6 +7,7 @@ const navLinks = [
     { label: "AirPods" },
 ];
 
+
 const noChangeParts = [
     "Object_84",
     "Object_37",
