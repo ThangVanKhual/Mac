@@ -160,7 +160,7 @@ body {
         div {
           @apply size-7 rounded-full cursor-pointer;
         }
-
+        
         .active {
           @apply ring-5 size-5 ring-light-100;
         }
