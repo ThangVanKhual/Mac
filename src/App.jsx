@@ -5,15 +5,16 @@ import Hero from './components/Hero.jsx'
 import Productviewer from './components/Productviewer.jsx'
 import gsap from 'gsap'
 import {ScrollTrigger} from 'gsap/all'
+import Showcase from './components/Showcase.jsx'
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   return (
  <main>
-  <NavBar/>
+  <NavBar/>1
   <Hero/>
   <Productviewer/>
-  
+  <Showcase/>
  </main>
   )
 }
